@@ -4,7 +4,7 @@ var app = builder.Build();
 // See if we keep this with HTTPS
 app.Urls.Add("http://localhost:3000");
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Hello All Things Open!");
 
 app.MapGet("/{cityName}/weather", GetWeatherByCity);
 
