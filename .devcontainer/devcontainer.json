@@ -18,7 +18,7 @@
 	// Sets the ports that will be mapped to localhost or Codespaces.
 	"portsAttributes": {
 		"3000": {
-			"label": "Hello Remote World",
+			"label": "Hello All Things Open",
 			"onAutoForward": "notify"
 		}
 	},
